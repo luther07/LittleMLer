@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec what_bottom = 
+let rec (what_bottom : 'a shish -> 'a) = 
   function
      (Bottom(x))
       -> x

@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec only_onions = 
+let rec (only_onions : shish_kebab -> bool) = 
   function
      (Skewer)
       -> true

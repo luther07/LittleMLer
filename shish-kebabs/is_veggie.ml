@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec is_veggie = 
+let rec (is_veggie : 'a shish -> bool) = 
   function
      (Bottom(x))
       -> true

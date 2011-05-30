@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec is_vegetarian = 
+let rec (is_vegetarian : shish_kebab -> bool) = 
   function
      (Skewer)
       -> true
