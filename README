@@ -2,3 +2,4 @@
 * I'm going to store my files in this repo as I work through the book.
 * I'm using Objective Caml, because this language is used in industry 
 * I don't believe that SML (Standard ML) is used outside academia.
+* Right now I'm loading the files into the top-level interpreter.
