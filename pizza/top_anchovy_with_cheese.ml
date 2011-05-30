@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec top_anchovy_with_cheese = 
+let rec (top_anchovy_with_cheese : pizza -> pizza) = 
   function
      (Crust)
       -> Crust

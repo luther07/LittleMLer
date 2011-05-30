@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec remove_anchovy = 
+let rec (remove_anchovy : pizza -> pizza) = 
   function
      (Crust)
       -> Crust
