@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (remove_tuna : 'a pizza -> 'a pizza) = 
+let rec (remove_tuna : fish pizza -> fish pizza) = 
   function
      (Bottom)
       -> Bottom
