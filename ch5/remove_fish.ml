@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (remove_fish : (fish * fish pizza -> fish pizza)) =
+let rec (remove_fish : (fish * (fish pizza) -> fish pizza)) =
    function
       (x, Bottom)
        -> Bottom
