@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (eq_fish : (fish*fish) -> bool) = 
+let rec (eq_fish : fish*fish -> bool) = 
   function
      (Anchovy,Anchovy)
       -> true
