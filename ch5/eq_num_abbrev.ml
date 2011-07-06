@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (eq_num_abbrev : (num*num) -> bool) = 
+let rec (eq_num_abbrev : num*num -> bool) = 
    function
       (Zero,Zero)
        -> true
