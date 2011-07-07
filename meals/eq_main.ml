@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (eq_main : main * main -> bool) = function
+let rec (eq_main : main*main -> bool) = function
      (Steak,Steak)
       -> true
     |(Ravioli,Ravioli)
