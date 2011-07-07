@@ -4,7 +4,7 @@ let rec (subst_in_slist : fruit*fruit*(fruit slist) -> fruit slist) =
       (n,a,Empty)
        -> Empty
      |(n,a,Scons(s,y))
-       -> Scons(subst_in_sexp(a,s),subst_in_slist(a,y))
+       -> Scons(subst_in_sexp(n,a,s),subst_in_slist(n,a,y))
 and (subst_in_sexp : fruit*fruit*(fruit sexp) -> fruit sexp) =
    function
       (n,a,An_atom(b))
