@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (subst_int : (int * int * (int pizza) -> int pizza)) =
+let rec (subst_int : (int*int*(int pizza) -> int pizza)) =
    function
       (n, a, Bottom)
        -> Bottom
