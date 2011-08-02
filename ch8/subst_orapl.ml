@@ -1,5 +1,5 @@
 #print_depth 20;;
-let rec (subst_orapl : (orapl*orapl*orapl list) -> orapl list) =
+let rec (subst_orapl : orapl*orapl*orapl list -> orapl list) =
    function
       (n,a,Empty)
        -> Empty
